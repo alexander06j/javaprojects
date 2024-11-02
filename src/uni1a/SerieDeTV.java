@@ -22,7 +22,8 @@ public class SerieDeTV extends ContenidoAudiovisual {
     
     @Override
     public void mostrarDetalles() {
-        System.out.println("Detalles de la película:");
+    	System.out.println("----------------------");//aumento de un espacio
+        System.out.println("Detalles de la serie:");//Cambio
         System.out.println("ID: " + getId());
         System.out.println("Título: " + getTitulo());
         System.out.println("Duración en minutos: " + getDuracionEnMinutos());
